@@ -1,0 +1,9 @@
+Package: org.iakb.bilifix
+Name: BiliFix
+Version: 1.2.1
+Architecture: iphoneos-arm
+Description: 复活旧版Bilibili(v4.3.4,iOS7+)
+Maintainer: z
+Author: z
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
