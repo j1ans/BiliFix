@@ -31,11 +31,6 @@ function getMixinKey($orig) {
 $result_wbi_key = getMixinKey($raw_wbi_key);
 $wts = time();
 
-$host = '38.12.25.243'; // 数据库服务器地址
-$db   = 'sql_bili_api_iak'; // 数据库名
-$user = 'sql_bili_api_iak'; // 数据库用户名
-$pass = '3ff57d6160164'; // 数据库密码
-
 $conn = new mysqli($host, $user, $pass, $db);
 
 $sql = $conn->prepare("SELECT bvid FROM video_data WHERE cid = ".$cid." LIMIT 1");
